@@ -1,0 +1,90 @@
+
+
+body {
+    /*background: url("./pokemon-bg.jpg");*/
+    background: url("./memorama_img/bg3.jpeg");
+    background-size: cover;
+    background-position: center top;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board {
+    height: 532px;
+    /*width: 475px;*/
+    width: 475px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    border: 10px solid lightgrey;
+}
+
+.card {
+    height: 128px;
+    width: 90px;
+    margin: 2.5px;
+}
+
+
+
+.description_popup {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px 30px 70px;
+    max-height: 450px;
+}
+
+.overlay {
+    position: absolute;
+    align-items: center;
+    display: none;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.btn_popup_close {
+    width: 30px;
+    font-size: 20px;
+    color: #c0c5cb;
+    align-self: flex-end;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.popup_img {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.popup_description {
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #808080;
+}
+
+.btn_popup_accept {
+    background-color: #65b418;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    padding: 14px;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0px 6px 18px -5px rgb(53, 182, 41);
+}
