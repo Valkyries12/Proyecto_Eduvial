@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --azul: #004C9E;
+    --verde: #65B418;
+    --gris: #808080;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+/************************************************/
+/******************NAVBAR************************/
+/************************************************/
+.navbar {
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-around;
+}
+
+.logo_image {
+    display: none;
+}
+
+.vertical_bar {
+    display: none;
+}
+
+.eduvial_primary_text {
+    color: var(--azul);
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.eduvial_secondary_text {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex !important;
+}
+
+.navbar_items {
+    display: none;
+    border: 1px solid green;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    top: 64px;
+    background-color: var(--azul);
+}
+
+.navbar_item {
+    color: #FFF;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.navbar_item:hover {
+    background-color: #0071e9
+}
+
+.fa-bars {
+    color: var(--azul);
+    font-size: 32px;
+    cursor: pointer;
+}
