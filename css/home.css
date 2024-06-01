@@ -155,7 +155,6 @@ img {
 
 .main {
     width: 100%;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,14 +163,12 @@ img {
 }
 
 .logo_uade {
-    border: 1px solid green;
     width: 40%;
     max-width: 254px;
 }
 
 .section_datos {
     position: relative;
-    border: 2px solid pink;
     width: 100%;
     height: 100%;/*ver por cual medida cambiar*/
     display: flex;
@@ -198,7 +195,6 @@ img {
 }
 
 .dato_item {
-    border: 2px solid green;
     width: 92%;
     z-index: 101;
     display: flex;
@@ -219,6 +215,52 @@ img {
     font-size: 16px;
     font-weight: 700;
 }
+
+/****************** FOOTER ***********************/
+.footer {
+    width: 100%;
+    background-color: #07102f;
+    padding: 20px;
+    color: #EEEDED;
+    font-size: 12px;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.mapa_sitio {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.footer_nav {
+    display: none;
+}
+
+.fa-sitemap {
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.footer_copy {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+
+
+
+/*************** FIN FOOTER **********************/
 
 
 
@@ -329,6 +371,43 @@ img {
     .dato_item {
         width: 40%;
     }
+    /**********************FOOTER *********************/
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    .mapa_sitio {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-bottom: 0;
+        justify-self: end;
+        margin-right: 40px;
+    }
+    
+    .fa-sitemap {
+        margin-bottom: 5px;
+        font-size: 30px;
+    }
+
+    .footer_nav {
+        display: flex;
+        font-size: 16px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer_nav a{
+        text-decoration: none;
+        color: #EEEDED;
+    }
+    
+    .footer_copy {
+        margin-top: 20px;
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    /********************* FIN FOOTER *******************/
     
 }
 
@@ -387,7 +466,6 @@ img {
 
     .section_datos {
         position: relative;
-        border: 2px solid pink;
         width: 100%;
         height: 100%;/*ver por cual medida cambiar*/
         display: flex;
@@ -400,7 +478,6 @@ img {
     
     
     .dato_item {
-        border: 2px solid green;
         width: 45%;
         z-index: 101;
         display: flex;
@@ -416,4 +493,41 @@ img {
         font-size: 22px;
     }
 
+    /**********************FOOTER *********************/
+    .footer {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    .mapa_sitio {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        margin-bottom: 0;
+        justify-self: end;
+        margin-right: 80px;
+    }
+    
+    .fa-sitemap {
+        margin-bottom: 10px;
+        font-size: 50px;
+    }
+    
+    .footer_copy {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .footer_copy_description:nth-child(1) {
+        grid-column: 1/2;
+        justify-self: end;
+    }
+
+    .footer_copy_description:nth-child(3) {
+        grid-column: 1/3;
+        text-align: center;
+    }
+    /********************* FIN FOOTER *******************/
 }
