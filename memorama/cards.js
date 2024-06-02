@@ -16,13 +16,13 @@ let cardList = [
 let cardListDescription = [
     "Se coloca en entradas de calles de sentido único, salidas de estacionamientos, y cualquier lugar donde el acceso está restringido en una dirección específica. Es una señal de prohibición clara y sencilla que ayuda a evitar el tráfico en direcciones no permitidas",
     "Esta señal indica a los conductores que deben detenerse completamente antes de continuar. Es una instrucción obligatoria para detener el vehículo en la línea de detención marcada, en el cruce de peatones, o antes de entrar en la intersección.",
-    "Se coloca en áreas donde el estacionamiento puede obstruir el tráfico, crear situaciones peligrosas o estar reservado para otros usos específicos. La prohibición de estacionar ayuda a mantener el flujo del tráfico y asegura que se respeten las áreas designadas para otros fines, como paradas de autobús, entradas y salidas de emergencia, y zonas de carga y descarga.",
+    "Se coloca en áreas donde el estacionamiento puede obstruir el tráfico, crear situaciones peligrosas o estar reservado para otros usos específicos. La prohibición de estacionar ayuda a mantener el flujo del tráfico y asegura que se respeten las áreas designadas para otros fines.",
     "Esta señal indica que está prohibido adelantar a otros vehículos. Se utiliza para asegurar la seguridad en tramos de carretera donde adelantar sería peligroso debido a la visibilidad reducida, curvas, cambios de rasante, o cualquier otra condición que haga riesgoso el acto de adelantar.",
     "Se utiliza para alertar a los conductores sobre la presencia de curvas cerradas sucesivas en la carretera, la primera de las cuales es hacia la izquierda, seguida de una hacia la derecha. ",
     "Indica que los conductores deben reducir la velocidad y estar preparados para detenerse si es necesario, cediendo el paso a otros vehículos.",
     "Esta señal indica que el área designada es un lugar donde los vehículos pueden estacionarse.",
     "Esta señal indica la proximidad de un hospital, clínica o cualquier otro tipo de servicio médico. Está diseñada para informar a los conductores y peatones sobre la disponibilidad de asistencia médica cercana.",
-    "Esta señal advierte a los conductores que están aproximándose a una zona donde es común la presencia de niños, como en las cercanías de una escuela, un parque infantil, o un cruce frecuentado por escolares. Indica que los conductores deben reducir la velocidad y estar especialmente atentos para evitar accidentes.",
+    "Esta señal advierte a los conductores que están aproximándose a una zona donde es común la presencia de niños. Indica que los conductores deben reducir la velocidad y estar especialmente atentos para evitar accidentes.",
     "Esta señal indica la ubicación de un cruce peatonal. Informa a los conductores que deben estar preparados para detenerse y ceder el paso a los peatones que estén cruzando la calle en ese punto."
 ];
 
