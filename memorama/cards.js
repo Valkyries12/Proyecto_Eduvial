@@ -21,7 +21,7 @@ let cardListDescription = [
     "Se utiliza para alertar a los conductores sobre la presencia de curvas cerradas sucesivas en la carretera, la primera de las cuales es hacia la izquierda, seguida de una hacia la derecha. ",
     "Indica que los conductores deben reducir la velocidad y estar preparados para detenerse si es necesario, cediendo el paso a otros vehículos.",
     "Esta señal indica que el área designada es un lugar donde los vehículos pueden estacionarse.",
-    "descripcion señal 8",
+    "Esta señal indica la proximidad de un hospital, clínica o cualquier otro tipo de servicio médico. Está diseñada para informar a los conductores y peatones sobre la disponibilidad de asistencia médica cercana.",
     "Esta señal advierte a los conductores que están aproximándose a una zona donde es común la presencia de niños, como en las cercanías de una escuela, un parque infantil, o un cruce frecuentado por escolares. Indica que los conductores deben reducir la velocidad y estar especialmente atentos para evitar accidentes.",
     "Esta señal indica la ubicación de un cruce peatonal. Informa a los conductores que deben estar preparados para detenerse y ceder el paso a los peatones que estén cruzando la calle en ese punto."
 ];
@@ -34,7 +34,7 @@ let cardListTitle = [
     "Doble curva peligrosa",
     "Ceda el paso",
     "Estacionamiento",
-    "titulo señal 8",
+    "Hospital o Servicios médicos",
     "Zona escolar",
     "Paso de peatones",
 ];
