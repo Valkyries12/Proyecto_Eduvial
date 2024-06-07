@@ -24,7 +24,9 @@ body {
     text-align: center;
     width: 150px;
     height: 100px;
+    margin-top: 10px;
 }
+
 
 .grid {
     height: 560px;
@@ -73,3 +75,16 @@ h1 {
 .return-button:hover {
     background-color: #4a8015;
 }
+
+
+
+@media (max-width: 600px) {
+    body {
+        width: 90%; 
+        height: auto; 
+        padding: 20px; 
+        margin: 10px auto; 
+    }
+}
+
+
