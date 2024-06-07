@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="298.232"
+   height="291"
+   viewBox="0 0 298.232 291"
+   version="1.1"
+   id="svg265"
+   sodipodi:docname="ahorcado-5.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs269" />
+  <sodipodi:namedview
+     id="namedview267"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.7835052"
+     inkscape:cx="148.86416"
+     inkscape:cy="145.21965"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg265" />
+  <g
+     id="Group_698"
+     data-name="Group 698"
+     transform="translate(-16059.232 -14400)">
+    <rect
+       id="Rectangle_2987"
+       data-name="Rectangle 2987"
+       width="5"
+       height="289"
+       rx="2.5"
+       transform="translate(16107.232 14400)" />
+    <g
+       id="Group_697"
+       data-name="Group 697">
+      <rect
+         id="Rectangle_2974"
+         data-name="Rectangle 2974"
+         width="5"
+         height="61.733"
+         transform="translate(16150.859 14400.247) rotate(45)" />
+      <rect
+         id="Rectangle_2966"
+         data-name="Rectangle 2966"
+         width="5"
+         height="298.232"
+         rx="2.5"
+         transform="translate(16357.465 14686) rotate(90)" />
+      <rect
+         id="Rectangle_2988"
+         data-name="Rectangle 2988"
+         width="187"
+         height="5"
+         rx="2.5"
+         transform="translate(16107.232 14400)" />
+      <rect
+         id="Rectangle_2989"
+         data-name="Rectangle 2989"
+         width="5"
+         height="49"
+         rx="2.5"
+         transform="translate(16289.232 14401)" />
+      <g
+         id="Group_696"
+         data-name="Group 696">
+        <rect
+           id="Rectangle_2970"
+           data-name="Rectangle 2970"
+           width="5"
+           height="56"
+           rx="2.5"
+           transform="translate(16289.197 14498.247) rotate(45)" />
+        <rect
+           id="Rectangle_2967"
+           data-name="Rectangle 2967"
+           width="5"
+           height="56"
+           rx="2.5"
+           transform="translate(16291.197 14565.247) rotate(45)" />
+        <rect
+           id="Rectangle_2971"
+           data-name="Rectangle 2971"
+           width="5"
+           height="56"
+           rx="2.5"
+           transform="translate(16290.732 14501.782) rotate(-45)" />
+        <g
+           id="Ellipse_32"
+           data-name="Ellipse 32"
+           transform="translate(16263.732 14445.247)"
+           fill="none"
+           stroke="#000"
+           stroke-width="5">
+          <circle
+             cx="27.5"
+             cy="27.5"
+             r="27.5"
+             stroke="none"
+             id="circle256" />
+          <circle
+             cx="27.5"
+             cy="27.5"
+             r="25"
+             fill="none"
+             id="circle258" />
+        </g>
+        <rect
+           id="Rectangle_2990"
+           data-name="Rectangle 2990"
+           width="5"
+           height="73"
+           rx="2.5"
+           transform="translate(16289.232 14498)" />
+      </g>
+    </g>
+  </g>
+</svg>
