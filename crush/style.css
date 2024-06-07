@@ -79,7 +79,7 @@ h1 {
 
 
 @media (max-width: 600px) {
-    .grid {
+    body {
         width: 90%; 
         height: auto; 
         padding: 20px; 
