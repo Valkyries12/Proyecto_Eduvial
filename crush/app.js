@@ -17,20 +17,42 @@ document.addEventListener('DOMContentLoaded', () => {
     function createBoard() {
         for (let i = 0; i < width * width; i++) {
             const square = document.createElement('div');
-            square.setAttribute('draggable', true);
             square.setAttribute('id', i);
             let randomColor = Math.floor(Math.random() * candyColors.length);
             square.style.backgroundImage = candyColors[randomColor];
             grid.appendChild(square);
             squares.push(square);
 
-            // Añadir eventos táctiles
+            // eventos táctiles
             square.addEventListener('touchstart', touchStart);
-            square.addEventListener('touchend', touchEnd);
             square.addEventListener('touchmove', touchMove);
+            square.addEventListener('touchend', touchEnd);
         }
     }
     createBoard();
+
+    let colorBeingTouched;
+    let squareIdBeingTouched;
+
+    function touchStart(e) {
+        e.preventDefault();
+        colorBeingTouched = this.style.backgroundImage;
+        squareIdBeingTouched = parseInt(this.id);
+    }
+
+    function touchMove(e) {
+        e.preventDefault();
+        const touchLocation = e.targetTouches[0];
+        const element = document.elementFromPoint(touchLocation.pageX, touchLocation.pageY);
+        if (element && element.classList.contains('grid div')) {
+            dragDrop.call(element);
+        }
+    }
+
+    function touchEnd(e) {
+        e.preventDefault();
+        dragEnd.call(this);
+    }
 
     let colorBeingDragged;
     let colorBeingReplaced;
@@ -85,26 +107,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             squares[squareIdBeingDragged].style.backgroundImage = colorBeingDragged;
         }
-    }
-
-    function touchStart(e) {
-        e.preventDefault();
-        colorBeingDragged = this.style.backgroundImage;
-        squareIdBeingDragged = parseInt(this.id);
-    }
-
-    function touchMove(e) {
-        e.preventDefault();
-        const touchLocation = e.targetTouches[0];
-        const element = document.elementFromPoint(touchLocation.pageX, touchLocation.pageY);
-        if (element && element.classList.contains('grid div')) {
-            dragDrop.call(element);
-        }
-    }
-
-    function touchEnd(e) {
-        e.preventDefault();
-        dragEnd.call(this);
     }
 
     function moveIntoSquareBelow() {
