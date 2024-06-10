@@ -1,0 +1,184 @@
+/************************************************/
+/******************NAVBAR************************/
+/************************************************/
+.navbar {
+    width: 100%;
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-around;
+}
+
+.logo_image {
+    display: none;
+}
+
+.vertical_bar {
+    display: none;
+}
+
+.eduvial_primary_text {
+    color: var(--azul);
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.eduvial_secondary_text {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex !important;
+}
+
+.navbar_items {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    top: 64px;
+    background-color: var(--azul);
+    z-index: 100;
+}
+
+.navbar_item {
+    color: #FFF;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 20px;
+}
+
+.navbar_item:hover {
+    background-color: #0071e9
+}
+
+.fa-bars {
+    color: var(--azul);
+    font-size: 32px;
+    cursor: pointer;
+}
+
+/****************************************************/
+/*********** FIN NAVBAR *****************************/
+
+/*****************************************************/
+/*****************ESTILOS TABLET*********************/
+/*****************************************************/
+
+/***************  NAVBAR   ***************************/
+
+@media (min-width: 768px) {
+    .navbar {
+        width: 100%;
+        display: flex;
+        padding: 15px 0;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .logo_wrapper {
+        display: grid;
+        grid-template-columns: 80px 20px 150px;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    .logo_image {
+        width: 80px;
+        display: flex;
+        grid-column: 1/2;
+        grid-row: 1/3;
+        justify-self: center;
+    }
+    
+    .vertical_bar {
+        display: flex;
+        width: 8px;
+        height: 76%;
+        background-color: var(--azul);
+        grid-row: 1/3;
+        grid-column: 2;
+        align-self: center;
+    }
+    
+    .eduvial_primary_text {
+        font-size: 36px;
+    }
+    
+    .eduvial_secondary_text {
+        display: flex;
+        color: var(--azul);
+        font-size: 16px;
+        font-weight: 700;
+        align-self: center;
+    }
+    
+    .navbar_items {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        top: 0;
+        background-color: #FFF;
+    }
+    
+    .navbar_item {
+        color: var(--azul);
+        font-size: 20px;
+        padding: 0px -10px;
+    }
+    
+    .navbar_item:hover {
+        background-color: #FFF;
+        color: #0071e9
+    }
+    
+    .fa-bars {
+        display: none !important;
+    }
+
+    /****************************************************/
+    /*********** FIN NAVBAR *****************************/
+    
+}
+
+/*****************************************************/
+/*****************ESTILOS DESKTOP*********************/
+/*****************************************************/
+
+/***************  NAVBAR   ***************************/
+@media (min-width: 1024px) {
+    .navbar {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    .eduvial_primary_text {
+        color: var(--azul);
+        font-size: 36px;
+    }
+    
+    .eduvial_secondary_text {
+        font-size: 18px;
+    }
+    
+    .navbar_items {
+        width: 50%;
+    }
+
+    .navbar_item {
+        color: var(--azul);
+        font-size: 20px;
+        padding: 0px 0px;
+    }
+    /****************************************************/
+    /*********** FIN NAVBAR *****************************/
+
+}
