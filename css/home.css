@@ -45,6 +45,11 @@ img {
     z-index: 50;
 }
 
+.btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .btn:hover {
     background-color: #4a8015;
 }
@@ -232,10 +237,7 @@ img {
         border-radius: 50px;
     } 
 
-    .btn a {
-        text-decoration: none;
-        color: #FFFFFF;
-    }
+    
 
     .section_datos {
         position: relative;
