@@ -6,6 +6,34 @@
     padding: 0;
 }
 
+:root {
+    --azul: #004C9E;
+    --verde: #65B418;
+    --gris: #808080;
+}
+
+.btn {
+    width: 152px;
+    height: 55px;
+    color: #FFFFFF;
+    background-color: var(--verde);
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.4s ease;
+    z-index: 50;
+    margin-top: 140px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background-color: #4a8015;
+}
+
 body {
     /*background: url("./pokemon-bg.jpg");*/
     width: 100%;
@@ -127,6 +155,10 @@ body {
 /************** ESTILOS TABLET ************************/
 /******************************************************/
 @media (min-width: 768px) {
+    .btn {
+        margin-top: 40px;
+    }
+
     .board {
         width: 475px;
         gap: 5px;

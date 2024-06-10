@@ -103,7 +103,8 @@ img {
 .section_datos {
     position: relative;
     width: 100%;
-    height: 100%;/*ver por cual medida cambiar*/
+    height: 100%;
+    /*ver por cual medida cambiar*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,7 +160,7 @@ img {
 
 
 @media (min-width: 768px) {
-    
+
     .hero {
         height: 45vh;
     }
@@ -183,12 +184,12 @@ img {
     .section_datos {
         padding-bottom: 100px;
     }
-    
+
     .dato_item {
         width: 40%;
     }
-    
-    
+
+
 }
 
 
@@ -200,7 +201,7 @@ img {
 /*****************************************************/
 
 @media (min-width: 1024px) {
-    
+
     .hero {
         height: 70vh;
     }
@@ -222,7 +223,8 @@ img {
     .section_datos {
         position: relative;
         width: 100%;
-        height: 100%;/*ver por cual medida cambiar*/
+        height: 100%;
+        /*ver por cual medida cambiar*/
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -230,8 +232,8 @@ img {
         padding-top: 140px;
         padding-bottom: 150px;
     }
-    
-    
+
+
     .dato_item {
         width: 45%;
         z-index: 101;
@@ -239,92 +241,129 @@ img {
         align-items: center;
         margin-bottom: 20px;
     }
-    
+
     .dato_title {
         font-size: 34px;
     }
-    
+
     .dato_description {
         font-size: 22px;
     }
 
-    
+
 }
-    /********************QUIÉNES SOMOS******************/
-       
-    main{
-        position: relative;
+
+/********************QUIÉNES SOMOS******************/
+
+main {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedorflex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    max-width: 1200px;
+}
+
+.social {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.fa-eye,
+.fa-linkedin {
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+}
+
+.cajasintegrantes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    width: 300px;
+    max-width: 300px;
+    min-height: 380px;
+    padding: 20px 0;
+    /*box-shadow:10px 10px 5px rgb(59, 59, 59);*/
+    border: 2px solid #808080;
+    text-align: center;
+}
+
+.fotosintegrantes {
+    box-sizing: border-box;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Nombreintegrante {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: rgb(105, 104, 104);
+    text-align: center;
+}
+
+.textoflex {
+    margin: 2em;
+}
+
+
+.quienessomos_title {
+    color: var(--azul);
+    font-size: 26px;
+    font-weight: 700;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.quienessomos_description {
+    line-height: 1.2;
+    color: var(--gris);
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 900px;
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    /*.contenedorflex {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .contenedorflex{
-        display: flex;
-        justify-content:space-around;
-   } 
-    
-    .cajasintegrantes{
-        background-color: rgb(246, 246, 247);
-        width: 300px;
-        margin: 20px;
-        padding: 10px;
-        box-shadow:10px 10px 5px rgb(59, 59, 59);
-        text-align: center;
-    }
+    .cajasintegrantes {
+        width: 90%;
+    }*/
+}
 
-    .fotosintegrantes{
-        box-sizing: border-box;
-        max-width: 124px;
-        border-radius: 50%;
-    } 
-
-    .Nombreintegrante{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: larger;
-        color: rgb(105, 104, 104);
-        text-align: center;   
-    }
-    .textoflex{
-        margin: 2em;
-    }
-
-    .contenedorflex{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    .cajasintegrantes{
-        background-color: rgb(245, 245, 248);
-        width: 300px;
-        margin: 20px;
-        padding: 10px;
-        box-shadow:10px 10px 5px rgb(17, 17, 17);
-        text-align: center;
-    }
-    
+@media (min-width: 1024px) {
     .quienessomos_title {
-        color: var(--azul);
-        font-size: 28px;
-        font-weight: 700;
-        margin-right: 10px;
-        text-align: center;
+        font-size: 46px;
     }
     
     .quienessomos_description {
-        color: var(--gris);
-        font-size: 20px;
-        font-weight: 700;
-        margin-right: 10px;
-        text-align: center;
-        
+        font-size: 28px;       
+        max-width: 1200px;
     }
+}
 
-    @media (max-width: 768px) {
-        .contenedorflex{
-            flex-direction: column;
-            align-items: center;
-        }
-        .cajasintegrantes{
-            width: 90%;
-        }
-    }
-     /********************FIN QUIÉNES SOMOS*****************/
+/********************FIN QUIÉNES SOMOS*****************/
