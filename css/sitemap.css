@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --azul: #004C9E;
+    --verde: #65B418;
+    --gris: #808080;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main_title {
+    color: var(--azul);
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mapa_sitio_wrapper {
+    background-color: rgba(101,180,24,0.1);
+    width: 90%;
+    border-radius: 20px;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+
+.secondary_title {
+    color: var(--azul);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.description {
+    font-size: 16px;
+    color: var(--gris);
+    text-align: center;
+    line-height: 1.6;
+}
