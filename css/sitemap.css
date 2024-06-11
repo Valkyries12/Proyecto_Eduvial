@@ -55,6 +55,17 @@
     padding-top: 30px;
 }
 
+.img_wrapper {
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
 .secondary_title {
     color: var(--azul);
     font-size: 24px;
