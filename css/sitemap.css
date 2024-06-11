@@ -70,3 +70,40 @@
     text-align: center;
     line-height: 1.6;
 }
+
+/*****************************************************/
+/*****************ESTILOS TABLET*********************/
+/*****************************************************/
+
+@media (min-width: 768px) {
+    
+    
+}
+
+
+/*****************************************************/
+/*****************ESTILOS DESKTOP*********************/
+/*****************************************************/
+
+@media (min-width: 1024px) {
+    .main_title {
+        font-size: 46px;
+    }
+    
+    .mapa_sitio_wrapper {
+        width: 60%;
+    }
+    
+    .secondary_title {
+        font-size: 40px;
+    }
+    
+    .description {
+        font-size: 24px;
+        color: var(--gris);
+        text-align: center;
+        line-height: 1.6;
+    }
+    
+
+}
