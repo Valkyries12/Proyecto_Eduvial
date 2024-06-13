@@ -10,7 +10,7 @@
 		<!-- Load style sheets -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
 		
-		<link rel="stylesheet" href="mainLayout.css">
+		<link rel="stylesheet" href="styles.css">
 		
 		<!-- Use mobile-aware viewport -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,6 +22,7 @@
 		<script src="board.js"></script>
 		<script src="rules.js"></script>
 		<script src="handler.js"></script>
+		<script src="intrucciones.js"></script>
 	</head>
 
 	<body>
@@ -41,7 +42,16 @@
 				<h1 id="score">0</h1>
 			</div>
 			<div>
-				<a href="" class="instrucciones">Instrucciones</a>
+				<button id="mostrarInstrucciones">Instrucciones</button>
+
+				<div class="popup" id="popupInstrucciones">
+					<div class="popup-contenido">
+						<h2>Instrucciones</h2>
+						<p>Para comenzar a jugar, alinea las señales de tránsito en líneas verticales de 3 o 4 y empieza a sumar puntos!</p>
+						<button id="cerrarPopup">Cerrar</button>
+					</div>
+				</div>
+			
 			</div>
 			<div> 
 				<a href="../juegos.html" class="return-button">Volver a Juegos</a>
