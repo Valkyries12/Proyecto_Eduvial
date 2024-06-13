@@ -49,15 +49,23 @@
                     iguales, todas relacionadas con la seguridad vial. ¡Aprende y recuerda las señales de tráfico
                     mientras juegas!</p>
                 <img src="img/juego_memorama.png" alt="Memorama">
-                <a href="memorama/index.html" class="play-button">Jugar <br> Memorama</a>
+                <div class="btn_wrapper">
+                    <a href="memorama/index.html" class="play-button">Jugar <br> Memorama</a>
+                    <button id="memorama-btn" class="play-button">Instrucciones</button>
+                </div>
             </div>
+
             <div class="game-container">
                 <h2 class="eduvial_tittle">Señales Crush</h2>
                 <p>Divierte en el crushing de las señales de tránsito como si fueran los caramelos para ganar puntos
                     mientras aprendes. </p>
                 <img src="img/crushImage.png" alt="Señales Crush">
-                <a href="crush/index.html" class="play-button">Jugar <br> Señales Crush</a>
+                <div class="btn_wrapper">
+                    <a href="crush/index.html" class="play-button">Jugar <br> Señales Crush</a>
+                    <button id="crush-btn" class="play-button">Instrucciones</button>
+                </div>
             </div>
+
             <div class="game-container">
                 <h2 class="eduvial_tittle">Ahorcado Vial</h2>
                 <p>Ahorcado Vial es una versión educativa y divertida del clásico juego del ahorcado. Está diseñado para
@@ -67,16 +75,36 @@
                 </p>
                 
                 <img src="img/juego_ahorcado.PNG" alt="Ahorcado Vial">
-                <a href="ahorcado/index.html" class="play-button">Jugar <br>Ahorcado</a>
+                <div class="btn_wrapper">
+                    <a href="ahorcado/index.html" class="play-button">Jugar <br>Ahorcado</a>
+                    <button id="ahorcado-btn" class="play-button">Instrucciones</button>
+                </div>
+                
             </div>
+
             <div class="game-container">
                 <h2 class="eduvial_tittle">juego 4</h2>
                 <p>descripcion</p>
                 <img src="imagen4.jpg" alt="Juego 4">
-                <a href="tetris.html" class="play-button">Jugar <br> Tetris</a>
+                <div class="btn_wrapper">
+                    <a href="tetris.html" class="play-button">Jugar <br> Tetris</a>
+                    <button id="preguntados-btn" class="play-button">Instrucciones</button>
+                </div>
+           
             </div>
         </div>
 
+
+        <div class="overlay">
+            <div class="description_popup" id="description_popup">
+                <button class="btn_popup_close">✖</button>
+                <h3 class="popup_title">¿Cómo jugar?</h3>
+                <img class="popup_img" src=""
+                    alt="" />
+                <ol class="popup_description"></ol>
+                <button class="btn_popup_accept">Entendido</button>
+            </div>
+        </div>
 
 
 
