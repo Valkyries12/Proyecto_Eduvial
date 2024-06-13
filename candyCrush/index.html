@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+
+
+	<head>
+		<meta charset="utf-8">
+		<title>Candy Crush</title>
+		
+		<!-- Load style sheets -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+		
+		<link rel="stylesheet" href="styles.css">
+		
+		<!-- Use mobile-aware viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Load any supplemental Javascript libraries here -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.2/seedrandom.js"></script>
+		<script src="candy.js"></script>
+		<script src="board.js"></script>
+		<script src="rules.js"></script>
+		<script src="handler.js"></script>
+		<script src="intrucciones.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-6" id="mainColumn">
+					<div id="cover"></div>
+					<div id="gameBoard"></div>
+					<canvas id="canvas" width="320" height="320">
+					</canvas>
+				</div>
+				<div class="col-md-3" id="lastColumn"></div>				
+			</div>
+			<div class="score-board">
+				<h3>Puntaje</h3>
+				<h1 id="score">0</h1>
+			</div>
+			<div>
+				<button id="mostrarInstrucciones">Instrucciones</button>
+
+				<div class="popup" id="popupInstrucciones">
+					<div class="popup-contenido">
+						<h2>Instrucciones</h2>
+						<p>Para comenzar a jugar, alinea las señales de tránsito en líneas verticales de 3 o 4 y empieza a sumar puntos!</p>
+						<button id="cerrarPopup">Cerrar</button>
+					</div>
+				</div>
+			
+			</div>
+			<div> 
+				<a href="../juegos.html" class="return-button">Volver a Juegos</a>
+			</div>
+
+		</div> 	
+	</body>
+</html>
