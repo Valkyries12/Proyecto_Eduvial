@@ -180,56 +180,7 @@ h1 {
     }
 }
 
-/* Estilos para los pop up */ 
 
-/* Instrucciones */ 
 
-.popup {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: 4a8015;
-    z-index: 999;
-}
 
-.popup-contenido {
-    background-color: #fff;
-    width: 80%;
-    max-width: 600px;
-    margin: 100px auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
 
-.popup-contenido h2 {
-    margin-top: 0;
-}
-
-.popup-contenido p {
-    margin-bottom: 20px;
-}
-
-.popup-contenido button {
-    display: inline-block;
-    width: 150px;
-    height: 50px;
-    background-color: #65B418;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 50px;
-    text-align: center;
-    line-height: 50px; 
-    font-family: "Roboto", sans-serif;
-    cursor: pointer;
-}
-
-.opup-contenido-button:hover {
-    background-color: #4a8015;
-}
-
-/* Cartas informativas */
