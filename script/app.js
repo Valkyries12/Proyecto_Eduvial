@@ -52,17 +52,7 @@ const showPopup = (e) => {
     descripcion.innerHTML = instrucciones;
     //const src = card1Selected.src;
 
-    // Extraer la parte relevante del string
-    /*const target = src.substring(src.lastIndexOf("memorama_img/"), src.lastIndexOf(".png"));
 
-    // Encontrar el índice en el array
-    const indice = cardList.findIndex(item => item === target);
-    const descripcion = document.querySelector(".popup_description");
-    descripcion.textContent = cardListDescription[indice];
-    const imagen = document.querySelector(".popup_img");
-    imagen.src = `${cardList[indice]}.png`;
-    const titulo = document.querySelector(".popup_title");
-    titulo.textContent = cardListTitle[indice];*/
 }
 
 const closePopup = () => {
