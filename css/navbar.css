@@ -74,6 +74,10 @@
 /***************  NAVBAR   ***************************/
 
 @media (min-width: 768px) {
+    /*body {
+        top: 317px;
+    }*/
+
     .navbar {
         width: 100%;
         display: flex;
@@ -81,6 +85,11 @@
         justify-content: space-between;
         padding-left: 30px;
         padding-right: 30px;
+        position: fixed;
+        z-index: 300;
+        background-color: #FFF;
+        border-bottom: 2px solid #808080;
+        top: 0;
     }
 
     .logo_wrapper {
