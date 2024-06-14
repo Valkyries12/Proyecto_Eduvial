@@ -44,6 +44,15 @@ const showPopup = (e) => {
                     <li>Gana cuando adivines correctamente el nombre de la señal antes de completar el ahorcado.</li>
                 `
             break;
+        case "preguntados-btn":
+            instrucciones = `
+                
+                <li>Tenés 2 minutos (120s) para responder la mayor cantidad posible de preguntas.</li>
+                <li>La respuesta correcta a cada pregunta es una sola.</li>
+                <li>Contás con 3 comodines que te quitaran 2 respuestas incorrectas.</li>
+                <li>Al finalizar el juego te dirá cuantas correctas tuviste del total de preguntas.</li>
+                `
+            break;
         default:
             break;
     }
