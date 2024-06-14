@@ -73,7 +73,7 @@ const closePopup = () => {
 /********************************************************************* */
 /********************************************************************* */
 
-const btn_play_array = document.querySelectorAll(".play-button");
+const btn_play_array = document.querySelectorAll(".instrucciones");
 const btn_popup_close = document.querySelector(".btn_popup_close");
 const btn_popup_accept = document.querySelector(".btn_popup_accept");
 
