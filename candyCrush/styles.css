@@ -95,7 +95,7 @@ img {
 #cover {
 	z-index: 2;
 	position: absolute;
-	top: -500px;
+	top: -700px;
 	left: calc(50% - 160px);
 	background-color: white;
 	width: 320px;
