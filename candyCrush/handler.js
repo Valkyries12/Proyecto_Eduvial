@@ -1,3 +1,4 @@
+
 // constantes
 var DEFAULT_BOARD_SIZE = 8;
 
@@ -75,7 +76,7 @@ $(board).on('scoreUpdate', function(e, info) {
 	var scoreLabel = document.getElementById("scoreLabel");
 	
 	$(scoreLabel).empty();
-	$(scoreLabel).append(info.score + " points");
+	$(scoreLabel).append(info.score);
 });
 
 $(document).on("mousedown touchstart", "#canvas", function(evt){

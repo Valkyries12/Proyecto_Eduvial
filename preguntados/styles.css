@@ -1,0 +1,149 @@
+/******************DESKTOP************************/
+body {
+    background: url("./img/fondo_desktop.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#home-container, #game-container, #alert-container {
+    width: 90%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#timer {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#question-container {
+    margin-top: 3vw;
+    height: 30vw;
+}
+
+#answer-buttons {
+    margin-top: 3vw;
+}
+
+#question-image {
+    max-width: 20vw;
+    max-height: 15vw;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnPrincipal {
+    background-color: #65B418;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.correct {
+    background-color: #28a745 !important;
+}
+
+.wrong {
+    background-color: #dc3545 !important;
+}
+
+.disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+}
+
+#alert {
+    text-align: center;
+}
+
+#alert-message {
+    margin-bottom: 20px;
+}
+
+#lifeline-container {
+    margin-left: auto;
+}
+
+/******************MOBILE************************/
+@media (max-width: 600px) {
+    body {
+        background: url("./img/fondo_mobile.jpg");
+        background-size: cover;
+        background-position: center bottom;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 90vw;
+    }
+
+    #question-container {
+        height: 65vh;
+    }
+
+    #question-image {
+        max-width: 70vw;
+        max-height: 23vh;
+        margin-bottom: 0px;
+        margin-top: 2vh;
+    }
+    
+    #question-text {
+        margin-top: 5vh;
+    }
+
+    #answer-buttons {
+        margin-top: 5vh;
+    }
+
+    .btn-grid {
+        grid-template-columns: 1fr;
+    }
+}
