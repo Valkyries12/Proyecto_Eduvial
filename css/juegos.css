@@ -45,7 +45,7 @@
     color: #000;
     border-radius: 20px;
     padding: 30px 30px 70px;
-    max-height: 500px;
+    max-height: 700px;
 }
 
 .overlay {
@@ -325,8 +325,9 @@ h1 {
     align-self: center;
     display: inline-block;
     /*padding: 15px 40px;*/
-    width: 150px;
-    height: 50px;
+    width: 130px;
+    height: 40px;
+    font-size: 13px;
     background-color: #65B418;
     color: #fff;
     text-decoration: none;
@@ -371,7 +372,9 @@ h1 {
     .play-button {
         width: 200px;
         height: 50px;
+        font-size: 16px;
     }
+
 
     .game-container {
         padding: 40px;
