@@ -55,6 +55,7 @@ img {
 }
 
 
+
 .hero {
     background-image: url("../img/hero3.jpg");
     width: 100%;
@@ -68,7 +69,6 @@ img {
     justify-content: center;
     padding-left: 30px;
     padding-right: 30px;
-    margin-top: 117px;
 }
 
 .hero::after {
@@ -182,7 +182,9 @@ img {
     
     .hero {
         height: 45vh;
+        margin-top: 117px;
     }
+
 
     .main_title_mobile {
         display: none;

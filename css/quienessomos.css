@@ -345,7 +345,10 @@ main {
     line-height: 1.2;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+    .quienessomos_title {
+        margin-top: 117px;
+    }
     /*.contenedorflex {
         flex-direction: column;
         align-items: center;
