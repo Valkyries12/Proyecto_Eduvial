@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduvial - Preguntados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="home-container">
+        <h1>Bienvenido al Juego de Preguntados</h1>
+        <button id="start-button" class="btnPrincipal">Comenzar Juego</button>
+        <a class="btnPrincipal" href="../index.html">EduVial</a>
+    </div>
+    <div id="game-container" class="hidden">
+        <div id="header">
+            <div id="score">Aciertos: 0/0</div>
+            <div id="timer">Tiempo: 60s</div>
+            <div id="lifeline-container">
+                <button id="lifeline-button" class="btnPrincipal">Comodín (3)</button>
+            </div>
+        </div>
+        <div id="question-container">
+            <img id="question-image">
+            <p id="question-text"></p>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn" id="btn1"></button>
+                <button class="btn" id="btn2"></button>
+                <button class="btn" id="btn3"></button>
+                <button class="btn" id="btn4"></button>
+            </div>
+        </div>
+    </div>
+    <div id="alert-container" class="hidden">
+        <div id="alert">
+            <p id="alert-message"></p>
+            <button id="restart-button" class="btnPrincipal">Reiniciar</button>
+            <button id="home-button" class="btnPrincipal">Volver al Home</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
