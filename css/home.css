@@ -55,6 +55,7 @@ img {
 }
 
 
+
 .hero {
     background-image: url("../img/hero3.jpg");
     width: 100%;
@@ -181,7 +182,9 @@ img {
     
     .hero {
         height: 45vh;
+        margin-top: 117px;
     }
+
 
     .main_title_mobile {
         display: none;
