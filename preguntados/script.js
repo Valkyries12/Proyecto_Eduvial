@@ -49,7 +49,7 @@ const timerDisplay = document.getElementById('timer');
 let shuffledQuestions, currentQuestionIndex;
 let score = 0;
 let totalQuestions = 0;
-let timeLeft = 60;
+let timeLeft = 120;
 let timer;
 let lifelineCount = 3;
 let lifelineUsedThisQuestion = false;
@@ -70,7 +70,7 @@ function startGame() {
     alertContainer.classList.add('hidden');
     score = 0;
     totalQuestions = 0;
-    timeLeft = 60;
+    timeLeft = 120;
     lifelineCount = 3;
     lifelineUsedThisQuestion = false;
     lifelineButton.innerText = `Comodín (${lifelineCount})`;

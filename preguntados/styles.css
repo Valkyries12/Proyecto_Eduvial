@@ -124,18 +124,26 @@ body {
         width: 90vw;
     }
 
-    .btn-grid {
-        grid-template-columns: 1fr;
+    #question-container {
+        height: 140vw;
     }
 
     #question-image {
-        max-width: 40vw;
-        max-height: 30vw;
+        max-width: 70vw;
+        max-height: 50vw;
         margin-bottom: 0px;
+        margin-top: 5vw;
+    }
+    
+    #question-text {
+        margin-top: 15vw;
     }
 
-    #question-container {
-        margin-top: 0vw;
-        height: 100vw;
+    #answer-buttons {
+        margin-top: 15vw;
+    }
+
+    .btn-grid {
+        grid-template-columns: 1fr;
     }
 }
