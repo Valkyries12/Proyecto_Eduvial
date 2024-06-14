@@ -34,7 +34,9 @@ const showPopup = (e) => {
         case "ahorcado-btn":
             instrucciones = `
                 
-                    <li>Elige una letra para adivinar el nombre de la señal de tránsito.</li>
+                    <li>Al inicio del juego, se presenta una pista relacionada con la educación vial.</li>
+                    <li>Se visualiza una serie de espacios vacíos que representan las letras de la palabra.</li>
+                    <li>Elige una letra del teclado visual en la pantalla para intentar adivinar la palabra.</li>
                     <li>Si la letra está en el nombre, aparecerá en su lugar correcto.</li>
                     <li>Si la letra no está, se añadirá una parte al dibujo del ahorcado.</li>
                     <li>Continúa adivinando letras hasta completar el nombre de la señal.</li>

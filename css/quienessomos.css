@@ -268,10 +268,11 @@ main {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
+    max-width: 660px; /* Ajustar este valor según el tamaño de las tarjetas */
     gap: 50px;
     padding-bottom: 60px;
     padding-top: 30px;
-    max-width: 1200px;
+    margin: 0 auto; /* Centra el contenedor en la página */
 }
 
 .social {
