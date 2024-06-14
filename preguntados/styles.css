@@ -125,22 +125,22 @@ body {
     }
 
     #question-container {
-        height: 140vw;
+        height: 65vh;
     }
 
     #question-image {
         max-width: 70vw;
-        max-height: 50vw;
+        max-height: 23vh;
         margin-bottom: 0px;
-        margin-top: 5vw;
+        margin-top: 2vh;
     }
     
     #question-text {
-        margin-top: 15vw;
+        margin-top: 5vh;
     }
 
     #answer-buttons {
-        margin-top: 10vw;
+        margin-top: 5vh;
     }
 
     .btn-grid {
