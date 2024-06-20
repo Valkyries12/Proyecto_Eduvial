@@ -54,6 +54,7 @@ body {
 #question-image {
     max-width: 30vw;
     max-height: 35vh;
+    height: 100%;
     border-radius: 10px;
     margin-bottom: 1vh;
 }

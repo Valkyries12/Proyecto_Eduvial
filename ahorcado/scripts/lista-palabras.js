@@ -103,4 +103,20 @@ const wordList = [
         word: "radar",
         hint: "Sistema que detecta la velocidad de los vehículos."
     },
+    {
+        word: "grua",
+        hint: "vehículos que se utiliza para auxiliar a un auto roto."
+    },
+    {
+        word: "vtv",
+        hint: "Sigla para Verificación Técnica Vehicular."
+    },
+    {
+        word: "cricket",
+        hint: "Herramienta que sirve para levantar el vehículo y cambiar cubierta."
+    },
+    {
+        word: "motor",
+        hint: "Pieza del automóvil que se encarga de producir el movimiento del mismo."
+    },
 ];

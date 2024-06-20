@@ -50,13 +50,13 @@ const questions = [
         ]
     },
     {
-        question: "¿Los ocupantes de este vehículo ¿viajan de manera segura?",
+        question: "¿Los ocupantes de este vehículo viajan de manera segura?",
         image: "./img/perro.jpg",
         answers: [
             { text: "Si, tienen cinturón de seguridad", correct: false },
             { text: "No, no pueden viajar animales", correct: false },
-            { text: "No, la mascota debe viajar atras atada", correct: true },
-            { text: "Si, el perro está encima de la persona", correct: false }
+            { text: "No, el perro debe viajar atras atado", correct: true },
+            { text: "Si, el perro está sobre la persona", correct: false }
         ]
     },
     {
