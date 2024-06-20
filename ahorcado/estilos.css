@@ -6,6 +6,34 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+
+:root {
+    --azul: #004C9E;
+    --verde: #65B418;
+    --gris: #808080;
+}
+
+.btn {
+    width: 152px;
+    height: 55px;
+    color: #FFFFFF;
+    background-color: var(--verde);
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.4s ease;
+    margin-top: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background-color: #4a8015;
+}
+
 body {
     display: flex;
     padding: 0 10px;
@@ -13,10 +41,12 @@ body {
     justify-content: center;
     min-height: 100vh;
     background: #004C9E;
+    flex-direction: column;
 }
 .container {
     display: flex;
-    width: 850px;
+    max-width: 850px;
+    width: 90%;
     gap: 70px;
     padding: 60px 40px;
     background: #fff;
