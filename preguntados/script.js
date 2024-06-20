@@ -279,7 +279,7 @@ const alertContainer = document.getElementById('alert-container');
 const alertMessage = document.getElementById('alert-message');
 const restartButton = document.getElementById('restart-button');
 const homeButton = document.getElementById('home-button');
-const lifelineButton = document.getElementById('lifeline-button');
+const comodinButton = document.getElementById('comodin-button');
 
 const questionText = document.getElementById('question-text');
 const questionImage = document.getElementById('question-image');
@@ -292,8 +292,8 @@ let score = 0;
 let totalQuestions = 0;
 let timeLeft = 120;
 let timer;
-let lifelineCount = 3;
-let lifelineUsedThisQuestion = false;
+let comodinCount = 3;
+let comodinUsedThisQuestion = false;
 
 startButton.addEventListener('click', startGame);
 restartButton.addEventListener('click', startGame);
@@ -303,8 +303,9 @@ homeButton.addEventListener('click', () => {
     alertContainer.classList.add('hidden');
 });
 
-lifelineButton.addEventListener('click', useLifeline);
+comodinButton.addEventListener('click', useComodin);
 
+/*Inicializa el juego*/
 function startGame() {
     homeContainer.classList.add('hidden');
     gameContainer.classList.remove('hidden');
@@ -312,10 +313,10 @@ function startGame() {
     score = 0;
     totalQuestions = 0;
     timeLeft = 120;
-    lifelineCount = 3;
-    lifelineUsedThisQuestion = false;
-    lifelineButton.innerText = `Comodín (${lifelineCount})`;
-    lifelineButton.disabled = false;
+    comodinCount = 3;
+    comodinUsedThisQuestion = false;
+    comodinButton.innerText = `Comodín (${comodinCount})`;
+    comodinButton.disabled = false;
     scoreDisplay.innerText = `Aciertos: ${score}/${totalQuestions}`;
     timerDisplay.innerText = `Tiempo: ${timeLeft}s`;
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
@@ -324,6 +325,7 @@ function startGame() {
     showNextQuestion();
 }
 
+/*Carga la siguiente imagen, pregunta y respuestas*/
 function showNextQuestion() {
     resetState();
     if (currentQuestionIndex < shuffledQuestions.length) {
@@ -335,9 +337,9 @@ function showNextQuestion() {
             button.dataset.correct = currentQuestion.answers[index].correct;
             button.addEventListener('click', selectAnswer, { once: true });
         });
-        lifelineUsedThisQuestion = false;
-        if (lifelineCount > 0) {
-            lifelineButton.disabled = false;
+        comodinUsedThisQuestion = false;
+        if (comodinCount > 0) {
+            comodinButton.disabled = false;
         }
     } else {
         endGame();
@@ -351,6 +353,7 @@ function resetState() {
     });
 }
 
+/*Seleccion de respuesta, se corrobora si es correcta y de serlo se incrementan los aciertos*/
 function selectAnswer(e) {
     const selectedButton = e.target;
     const correct = selectedButton.dataset.correct === 'true';
@@ -373,6 +376,7 @@ function disableButtons() {
     });
 }
 
+/*Mira si el timer llego a 0 para finalizar el juego*/
 function updateTimer() {
     timeLeft--;
     timerDisplay.innerText = `Tiempo: ${timeLeft}s`;
@@ -381,6 +385,7 @@ function updateTimer() {
     }
 }
 
+/*Finaliza el juego y se muestra la cantidad de aciertos*/
 function endGame() {
     clearInterval(timer);
     alertMessage.innerText = `Juego terminado! Aciertos: ${score}/${totalQuestions}`;
@@ -388,11 +393,12 @@ function endGame() {
     alertContainer.classList.remove('hidden');
 }
 
-function useLifeline() {
-    if (lifelineCount > 0 && !lifelineUsedThisQuestion) {
-        lifelineCount--;
-        lifelineButton.innerText = `Comodín (${lifelineCount})`;
-        lifelineUsedThisQuestion = true;
+/* Si se tiene algun comodin y no se uso en esta pregunta, se eligen dos respuestas incorrectas al azar y se desactivan*/
+function useComodin() {
+    if (comodinCount > 0 && !comodinUsedThisQuestion) {
+        comodinCount--;
+        comodinButton.innerText = `Comodín (${comodinCount})`;
+        comodinUsedThisQuestion = true;
         const incorrectAnswers = [];
         answerButtons.forEach(button => {
             if (button.dataset.correct === 'false') {
@@ -404,7 +410,7 @@ function useLifeline() {
             button.classList.add('disabled');
             button.disabled = true;
         });
-        lifelineButton.disabled = true;
+        comodinButton.disabled = true;
     }
 }
 

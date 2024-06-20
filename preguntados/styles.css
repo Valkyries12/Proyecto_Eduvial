@@ -18,7 +18,7 @@ body {
 
 #home-container, #game-container, #alert-container {
     width: 90%;
-    max-width: 600px;
+    max-width: 55%;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -40,11 +40,7 @@ body {
 
 #question-container {
     margin-top: 3vh;
-    height: 65vh;
-}
-
-#answer-buttons {
-    margin-top: 4vh;
+    height: 29vw;
 }
 
 #answer-buttons {
@@ -130,7 +126,7 @@ body {
     }
 
     #question-container {
-        height: 65vh;
+        height: 65%;
     }
 
     #question-image {
@@ -142,6 +138,7 @@ body {
     
     #question-text {
         margin-top: 5vh;
+        height: 4vh;
     }
 
     #answer-buttons {
