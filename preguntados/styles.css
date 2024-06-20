@@ -1,6 +1,6 @@
 /******************DESKTOP************************/
 body {
-    background: url("./img/fondo_desktop.jpg");
+    background: url("./img/fondo_desktop.webp");
     background-size: cover;
     background-position: center bottom;
     font-family: Arial, sans-serif;
@@ -115,7 +115,7 @@ body {
 /******************MOBILE************************/
 @media (max-width: 600px) {
     body {
-        background: url("./img/fondo_mobile.jpg");
+        background: url("./img/fondo_mobile.webp");
         background-size: cover;
         background-position: center bottom;
         display: flex;
