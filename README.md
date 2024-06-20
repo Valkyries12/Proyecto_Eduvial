@@ -11,7 +11,7 @@ Eduvial es un proyecto de un sitio web donde se enseña educación vial mediante
 
 ## Introducción
 
-Eduvial nación de una propuesta para la cátedra de la materia Diseño y desarrollo web.
+Eduvial nació de una propuesta de trabajo práctico para la cátedra de  Diseño y desarrollo web.
 El sitio web consiste en enseñar educación vial a un público niño y preadolescente mediante juegos interactivos.
 
 ## Instalación
