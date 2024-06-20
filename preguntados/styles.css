@@ -125,6 +125,10 @@ body {
         width: 90vw;
     }
 
+    #home-container, #game-container, #alert-container {
+        max-width: 100%;
+    }
+
     #question-container {
         height: 65%;
     }
