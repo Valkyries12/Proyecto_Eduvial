@@ -180,6 +180,30 @@ body {
     padding: 12px 23px;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.return-button {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: #65B418;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px; 
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.return-button:hover {
+    background-color: #4a8015;
+}
+
+
 @media (max-width: 782px) {
     .container {
         flex-direction: column;
