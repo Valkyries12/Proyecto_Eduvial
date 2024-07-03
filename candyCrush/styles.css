@@ -85,10 +85,7 @@ img {
 	opacity: 0.7;
 }
 
-#scoreLabel {
-	background-color: rgba(101, 180, 24, 0.6);
-	width: auto;
-}
+
 
 
 
@@ -115,26 +112,32 @@ img {
 	opacity: 0.85;
 }
 
-.score-board {
-
-    border-radius: 10px;
-    padding: 10px;
-    color: #85796b;
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    width: 150px;
-    height: 100px;
-    margin-top: 10px;
-	background-color: rgba(101, 180, 24, 0.6);
-	width: auto;
+.game-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
+.score-board {
+    border-radius: 10px;
+    padding: 15px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    width: 200px;
+    background-color: rgba(86, 219, 34, 0.648);
+    margin: 20px;
+    display: flex;
+    flex-direction: column; /* Disponer los elementos en columna */
+    justify-content: center; /* Centrar verticalmente los elementos */
+    align-items: center; /* Centrar horizontalmente los elementos */
+}
 
 h3, h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-	color: #172c02;
+    color: #172c02;
 }
 
 h1 {
@@ -160,6 +163,7 @@ h1 {
     cursor: pointer;
     align-self: center;
     display: inline-block;
+	margin-top: 70px;
 }
 
 .return-button:hover {
@@ -168,7 +172,6 @@ h1 {
     text-decoration: none; 
 }
 
-/* Pop ups */ 
 
 
 
