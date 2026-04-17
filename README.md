@@ -30,4 +30,4 @@ El sitio web consiste en enseñar educación vial a un público niño y preadole
 
 ## Wireframe
 
-Para visualizar el diseño del sitio web con su wireframe haga click [aquí](https://design.penpot.app/#/view/ee63301e-1fa7-81b1-8004-63e9eb44ec44?page-id=ee63301e-1fa7-81b1-8004-63e9eb44ec45&section=interactions&index=0&share-id=ee63301e-1fa7-81b1-8004-653fefc6e5f4)
+Para visualizar el diseño del sitio web con su wireframe haga click [aquí](https://design.penpot.app/#/view?file-id=ee63301e-1fa7-81b1-8004-63e9eb44ec44&page-id=ee63301e-1fa7-81b1-8004-63e9eb44ec45&section=interactions&index=0&share-id=ee63301e-1fa7-81b1-8004-653fefc6e5f4)
